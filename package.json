@@ -1,0 +1,29 @@
+{
+  "name": "css-animation-play-state",
+  "version": "0.0.1",
+  "homepage": "http://github.com/mrmrs/css-animation-play-state",
+  "description": "Css module of single purpose classes for animation play state",
+  "keywords": [
+    "css",
+    "oocss",
+    "",
+    ""
+  ],
+  "css-animation-play-state": {
+    "type": "git",
+    "url": "http://github.com/mrmrs/css-animation-play-state.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrmrs/repo/issues",
+    "email": "hi@mrmrs.cc"
+  },
+  "author": {
+    "name": "Adam Morse",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "contributors": [
+    { "name": "Adam Morse", "email": "hi@mrmrs.cc" }
+  ],
+  "license": "MIT"
+}
