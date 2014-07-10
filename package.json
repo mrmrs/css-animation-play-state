@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "animation-play-state"
   ],
   "css-animation-play-state": {
     "type": "git",
