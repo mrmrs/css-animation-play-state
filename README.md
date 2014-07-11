@@ -22,17 +22,17 @@ or download the css on github and include in your project.
   .a-running    { animation-play-state: running; }
   .a-paused     { animation-play-state: paused; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .a-running-ns { animation-play-state: running; }
   .a-paused-ns  { animation-play-state: paused; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .a-running-m { animation-play-state: running; }
   .a-paused-m  { animation-play-state: paused; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .a-running-l { animation-play-state: running; }
   .a-paused-l  { animation-play-state: paused; }
 }
