@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-animation-play-state)
 ## File Size
 
 576B animation-play-state.css
-460B animation-play-state.min.css
+460B animation-play-state.min.css 
+154B minified and gzipped
 
 ## The Code
 ```
