@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^0.3.2"
+    "tachyons-cli": "^1.0.2"
   },
   "scripts": {
     "start": "tachyons src/css-animation-play-state.css > css/css-animation-play-state.css && tachyons src/css-animation-play-state.css --minify > css/css-animation-play-state.min.css && tachyons src/css-animation-play-state.css --generate-docs --package=../../package.json > readme.md"
