@@ -6,8 +6,8 @@
   .a-paused     { animation-play-state: paused; }
 
 @media screen and (min-width: 48em) {
-  .a-running-ns { animation-play-state: running; }
-  .a-paused-ns  { animation-play-state: paused; }
+  .a-running-s { animation-play-state: running; }
+  .a-paused-s  { animation-play-state: paused; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
