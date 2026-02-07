@@ -1,18 +1,37 @@
-/*
-   ANIMATION PLAY STATE
-*/
-.a-running { -webkit-animation-play-state: running; animation-play-state: running; }
-.a-paused { -webkit-animation-play-state: paused; animation-play-state: paused; }
-@media screen and (min-width: 48em) {
- .a-running-ns { -webkit-animation-play-state: running; animation-play-state: running; }
- .a-paused-ns { -webkit-animation-play-state: paused; animation-play-state: paused; }
-}
-@media screen and (min-width:48em) and (max-width: 64em) {
- .a-running-m { -webkit-animation-play-state: running; animation-play-state: running; }
- .a-paused-m { -webkit-animation-play-state: paused; animation-play-state: paused; }
-}
-@media screen and (min-width: 64em) {
- .a-running-l { -webkit-animation-play-state: running; animation-play-state: running; }
- .a-paused-l { -webkit-animation-play-state: paused; animation-play-state: paused; }
+.a-running {
+  animation-play-state: running;
 }
 
+.a-paused {
+  animation-play-state: paused;
+}
+
+@media screen and (width >= 48em) {
+  .a-running-s {
+    animation-play-state: running;
+  }
+
+  .a-paused-s {
+    animation-play-state: paused;
+  }
+}
+
+@media screen and (width >= 48em) and (width <= 64em) {
+  .a-running-m {
+    animation-play-state: running;
+  }
+
+  .a-paused-m {
+    animation-play-state: paused;
+  }
+}
+
+@media screen and (width >= 64em) {
+  .a-running-l {
+    animation-play-state: running;
+  }
+
+  .a-paused-l {
+    animation-play-state: paused;
+  }
+}
